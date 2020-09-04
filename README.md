@@ -3,7 +3,7 @@
 A basic meme generator which takes top and bottom text and overlays it above the image.
 The image is can be generated randomly by calling a meme generator api.
 
-![](https://github.com/alandsilva26/meme-generator-react.git)
+![](./screenshots/preview1.png)
 
 ## Available Scripts
 
