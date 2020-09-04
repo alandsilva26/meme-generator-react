@@ -1,4 +1,9 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Meme Generator
+
+A basic meme generator which takes top and bottom text and overlays it above the image.
+The image is can be generated randomly by calling a meme generator api.
+
+![](https://github.com/alandsilva26/meme-generator-react.git)
 
 ## Available Scripts
 

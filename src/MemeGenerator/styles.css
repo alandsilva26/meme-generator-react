@@ -1,0 +1,55 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  padding: 20px;
+}
+
+form > * {
+  padding: 5px;
+  margin: 5px;
+}
+
+button {
+  background-color: purple;
+  color: white;
+  border: 2px solid grey;
+}
+
+#memebox {
+  width: 500px;
+  position: relative;
+}
+
+#memebox > img {
+  width: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+#memebox h1 {
+  color: white;
+  display: block;
+  width: 100%;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  -webkit-text-stroke-color: black;
+  -webkit-text-stroke-width: 2px;
+  font-family: sans-serif;
+  letter-spacing: -1px;
+}
+
+.top {
+  position: absolute;
+  top: 0px;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 0px;
+}

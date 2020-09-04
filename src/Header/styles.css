@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+header {
+  padding: 10px;
+  height: 70px;
+  background-color: rgb(81, 0, 128);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header > img {
+  width: 80px;
+}
+
+header > span {
+  font-size: 2em;
+  font-weight: bold;
+  color: white;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
