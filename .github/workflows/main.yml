@@ -35,6 +35,7 @@ jobs:
         FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
         FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
         LOCAL_DIR: build
+        REMOTE_DIR: testReact  
         METHOD: ftp
         PORT: ${{ secrets.FTP_PORT }}
-        ARGS: --delete --exclude=.ftpquota --exclude=.well-known
+        ARGS: --delete --dry-run --verbose --exclude=.ftpquota --exclude=.well-known
