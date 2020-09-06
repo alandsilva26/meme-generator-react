@@ -37,4 +37,4 @@ jobs:
         LOCAL_DIR: build
         METHOD: ftp
         PORT: ${{ secrets.FTP_PORT }}
-        ARGS: --delete
+        ARGS: --delete --exclude=.ftpquota --exclude=.well-known
